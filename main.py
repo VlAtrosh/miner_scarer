@@ -8,6 +8,7 @@ def main():
     gui = TaskManagerGUI(monitor)
     gui.mainloop()
     
+
     monitor.stop_monitoring()
 
 if __name__ == "__main__":
